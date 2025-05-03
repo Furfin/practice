@@ -1,6 +1,7 @@
-fastapi
+flask
 uvicorn
 jinja2
 python-multipart
 Pillow
 opencv-python
+ultralytics

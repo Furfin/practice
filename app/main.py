@@ -58,5 +58,3 @@ def track(filename):
     idx+=1
     print(len(track_history))
     return f'out{idx-1}.mp4', len(track_history)
-
-track('test.mp4')

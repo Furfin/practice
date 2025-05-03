@@ -1,10 +1,5 @@
-import random
-
-from concurrent.futures import thread
-from fileinput import filename
-from flask_sqlalchemy import SQLAlchemy
 import main
-from flask import Flask,render_template,redirect,request, Response, url_for
+from flask import Flask,render_template,redirect,request
 import os
 app = Flask(__name__)
 results = {}
@@ -36,4 +31,4 @@ def upload_file():
       return  redirect('/video/' + filename)
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run(debug = True, port=8000)
