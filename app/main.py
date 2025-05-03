@@ -1,13 +1,9 @@
-from PIL import Image
 from ultralytics import YOLO
-import time
-
 from collections import defaultdict
 
 import cv2
 
 from ultralytics import YOLO
-from ultralytics.utils.plotting import Annotator, colors
 
 # Loop through the video frames
 from collections import defaultdict
